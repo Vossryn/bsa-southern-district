@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  padding: 0.5em 0 0 0;
+  background-color: #ffffff;
+  background-image: url(../../public/images/bg02.png), url(../../public/images/bg02.png),
+    url(../../public/images/bg01.png);
+  background-position: top left, top left, top left;
+  background-size: 100% 6em, 100% 6em, auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+
+  h1 {
+    padding: 0 0 2.75em 0;
+    margin: 0;
+
+    a {
+      font-size: 1.5em;
+      letter-spacing: -0.025em;
+      border: 0;
+    }
+  }
+}

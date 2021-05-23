@@ -1,0 +1,16 @@
+.arrowUp {
+  width: 0;
+  height: 0;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid rgba(239, 68, 68, 1);
+  margin: auto auto -0.5rem auto;
+
+  &.hidden {
+    display: none;
+  }
+
+  &.active {
+    display: inherit;
+  }
+}
